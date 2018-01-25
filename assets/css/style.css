@@ -2770,7 +2770,7 @@ footer .go-top {
 }
 
 footer .go-top:before {
-    background: url("../images/_footer-car.png") no-repeat 50% 50%;
+    background: url("../images/footer-car.png") no-repeat 50% 50%;
     position: absolute;
     content: "";
     top: 25px;
