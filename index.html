@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <title>TaxiPark</title>
+
+    <link href="assets/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:700,800%7COpen+Sans:400,600,700"
+          rel="stylesheet">
+</head>
+<body>
+
+<div class="nav-wrapper" id="nav-wrapper">
+    <nav class="navbar navbar-static navbar-affix" data-spy="affix">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="logo" href="index.html"><img src="assets/images/logo-inner.png" alt="TaxiPark"></a>
+
+            </div>
+            <p class="header_tel">+7 987 654 32 10</p>
+        </div>
+    </nav>
+</div>
+
+<header class="page-header" style="background-image: url(assets/images/_inner-bg.jpg);">
+    <div class="container">
+        <h1>Такси в Петербурге</h1>
+    </div>
+</header>
+
+<section id="page-contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6">
+
+                        <h2 class="spanned">Требования для водителей</h2>
+                        <ul>
+                            <li>Возраст от 21 года</li>
+                            <li>Стаж вождения от 6 месяцев</li>
+                            <li>Права категории В</li>
+                            <li>Гражданство РФ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 contact-form">
+
+                <form class="form form-sm form-validate">
+                    <h3 class="aligncenter">Регистрация водителей</h3>
+                    <div class="form-group">
+                        <label>Ваше имя <span class="red">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" class="ajaxField required">
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail <span class="red">*</span></label>
+                        <input type="text" id="email" name="email" placeholder="E-mail" class="ajaxField required">
+                    </div>
+                    <div class="form-group">
+                        <label>Данные паспорта <span class="red">*</span></label>
+                        <textarea id="text" name="text" placeholder="Номер документа, кем и когда выдан"
+                                  class="ajaxField required"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" checked="checked"> Я согласен на обработку персональных данных
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" checked="checked"> Я принимаю публичную оферту
+                    </div>
+                    <input type="submit" name="send" value="Отправить" class="btn btn-yellow aligncenter btn-lg">
+                    <input type="hidden" id="type" name="type" value="1" class="ajaxField">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <a href="index.html">TaxiPark</a> © 2018
+        <!--<a href="#">Terms of use</a>-->
+        Искаковский Проспект, 21, к.0, лит.А, пом.17Н, 193230
+        <a href="#" class="go-top hidden-xs hidden-ms"></a>
+    </div>
+</footer>
+
+<script>var base_href = '/';</script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/js/plugins.min.js"></script>
+
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+</body>
+</html>
